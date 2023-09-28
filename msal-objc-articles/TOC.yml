@@ -1,2 +1,40 @@
-- name: Index
-  href: index.md
+- name: Microsoft Authentication Library for iOS and macOS
+  items:
+  - name: Getting started
+    items:
+    - name: Overview
+      href: index.md
+    - name: Install MSAL and configure your project
+      href: install-and-configure-msal.md
+    - name: Configure authority
+      href: configure-authority.md
+    - name: Configure redirect URI
+      href: redirect-uris-ios.md
+  - name: Authentication and single sign-on
+    items:
+    - name: Acquiring tokens
+      href: acquire-tokens.md
+    - name: Configure keychain
+      href: howto-v2-keychain-objc.md
+    - name: SSO between MSAL apps
+      href: single-sign-on-macos-ios.md
+    - name: SSO between ADAL and MSAL apps
+      href: sso-between-adal-msal-apps.md
+    - name: Request custom claims
+      href: request-custom-claims.md
+  - name: Advanced topics
+    items:
+    - name: Customize browsers and WebViews
+      href: customize-webviews.md
+    - name: Logging in MSAL for iOS/macOS
+      href: logging-ios.md
+    - name: Handle errors and exceptions in MSAL for iOS/macOS
+      href: error-handling-ios.md
+    - name: Troubleshoot SSL issues (MSAL iOS/macOS)
+      href: SSL-issues.md
+  - name: How-to guides
+    items:
+    - name: Migrate apps from ADAL to MSAL
+      href: migrate-objc-adal-msal.md
+    - name: Use shared device mode for iOS devices
+      href: shared-devices-ios.md
