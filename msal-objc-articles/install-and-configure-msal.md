@@ -5,8 +5,7 @@ services: active-directory
 author: Dickson-Mwendia
 manager: CelesteDG
 
-ms.service: active-directory
-ms.subservice: develop
+ms.service: identity-platform
 ms.topic: conceptual
 ms.workload: identity
 ms.date: 09/22/2023
