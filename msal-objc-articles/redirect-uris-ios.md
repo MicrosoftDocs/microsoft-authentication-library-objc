@@ -128,4 +128,4 @@ func application(_ app: UIApplication, open url: URL, options: [UIApplication.Op
 
 ## Next steps
 
-Learn more about [Authentication flows and application scenarios](/entra/identity-platform/authentication-flows-app-scenarios.md)
+Learn more about [Authentication flows and application scenarios](/entra/identity-platform/authentication-flows-app-scenarios)
