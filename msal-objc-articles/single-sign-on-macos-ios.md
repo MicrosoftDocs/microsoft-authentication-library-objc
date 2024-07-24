@@ -143,7 +143,7 @@ The following steps are how you enable SSO using an authentication broker for yo
    ```xml
    <key>CFBundleURLSchemes</key>
    <array>
-       <string>msauth.<app.bundle.id></string>
+       <string>msauth.<app.bundle.id>://auth</string>
    </array>
    ```
 
