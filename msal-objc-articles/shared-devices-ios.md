@@ -243,8 +243,12 @@ For iOS, your app requires a background permission to remain active in the backg
 
 These Microsoft applications support Microsoft Entra shared device mode:
 
-- [Microsoft Teams](/microsoftteams/platform/) (in Public Preview)
-- [Microsoft Power BI Mobile](/power-bi/consumer/mobile/mobile-app-shared-device-mode) (in Public Preview)
+- [Microsoft Teams](/microsoftteams/platform/)
+- [Microsoft Viva Engage](/viva/engage/overview) (previously [Yammer](/viva/engage/overview))
+- [Outlook](/mem/intune/apps/app-configuration-policies-outlook) (in Public Preview)
+- [Microsoft Power Apps](/power-apps/)
+- [Microsoft 365](https://apps.apple.com/us/app-bundle/microsoft-365/id1450038993?mt=12) (in Public Preview)
+- [Microsoft Power BI Mobile](/power-bi/consumer/mobile/mobile-app-shared-device-mode)
 
 > [!IMPORTANT]
 > Public preview is provided without a service-level agreement and isn't recommended for production workloads. Some features might be unsupported or have constrained capabilities. For more information, see [Universal License Terms for Online Services](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all).
