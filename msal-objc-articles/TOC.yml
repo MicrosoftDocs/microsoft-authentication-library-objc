@@ -34,9 +34,9 @@
     items:
     - name: Migrate apps from ADAL to MSAL
       href: migrate-objc-adal-msal.md
-    - name: Set up iOS devices in shared device mode
-      href: set-up-ios-device-shared-mode.md
     - name: Enable shared device mode in iOS applications
       href: shared-devices-ios.md
+    - name: Set up iOS devices in shared device mode
+      href: set-up-ios-device-shared-mode.md
   - name: MSAL iOS and macOS SDK reference
     href: https://azuread.github.io/microsoft-authentication-library-for-objc/

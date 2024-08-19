@@ -14,7 +14,7 @@ ms.reviewer: henrymbugua, akgoel
 
 # Setup an iOS or iPadOS device in Shared Device Mode 
 
-[Shared device mode]() allows you to configure an iOS 14+ or iPadOS device to be more easily and securely shared by employees. Employees can sign-in once and get single sign-on (SSO) to all apps that support this feature, giving them faster access to information. When they're finished with their shift or task, they can sign out of the device through any supported app that also signs them out from all apps supporting this feature, and the device is immediately ready for use by the next employee with no access to previous user's data.  
+[Shared device mode](/entra/identity-platform/msal-shared-devices) allows you to configure an iOS 14+ or iPadOS device to be more easily and securely shared by employees. Employees can sign-in once and get single sign-on (SSO) to all apps that support this feature, giving them faster access to information. When they're finished with their shift or task, they can sign out of the device through any supported app that also signs them out from all apps supporting this feature, and the device is immediately ready for use by the next employee with no access to previous user's data.  
 
 ## Pre-requisites
 
