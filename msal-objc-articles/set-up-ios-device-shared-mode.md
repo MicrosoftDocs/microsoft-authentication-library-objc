@@ -21,12 +21,20 @@ ms.reviewer: henrymbugua, akgoel
 - An Azure account with an active subscription. If you don't have one, [create an account for free](https://azure.microsoft.com/free/).
 - An iOS device with iOS 14+ or later that isn't registered with Microsoft Entra ID. If it's registered, reset it to factory settings.
 - The latest version of [Microsoft Authenticator app](https://play.google.com/store/apps/details/Microsoft_Authenticator?id=com.azure.authenticator&hl=en_NZ) installed on the device.
+- For manual setup, the device should be managed by a Mobile Device Management (MDM) tool such as Microsoft Intune.  
+- For setup via MDM, the device should be managed by an MDM that supports shared device mode.
+
+## Zero-touch setup via Intune 
+
+Microsoft Intune supports zero-touch provisioning for devices in Microsoft Entra shared device mode, which means that the device can be set up and enrolled in Intune with minimal interaction from the frontline worker.  
+
+To set up a device in shared device mode when using Microsoft Intune as the MDM, first step is to enroll the shared device into Intune and install Authenticator app with Shared Device Mode enabled. For more information, see how to [Set up enrollment for devices in Microsoft Entra shared device mode](/mem/intune/enrollment/automated-device-enrollment-shared-device-mode).  
+
+Once enrolled, launch the Authenticator app which will initiate and complete the registration process. Alternatively, you can open any of the shared device mode enabled applications which will launch the Authenticator app and complete registration.  
  
 ## Manual setup
 
-For manual setup, the device should be managed by a Mobile Device Management (MDM) tool that supports shared device mode, such as Microsoft Intune.   
-
-### Enable the SSO Plug-in  
+### Enable the Single Sign On Plug-in  
 
 Use the following information to enable the SSO plug-in by using MDM.
 
@@ -64,14 +72,6 @@ To configure the Authenticator app settings and register the device with Entra I
 1. Upon providing credentials, the device is successfully set in shared device mode.
 
   :::image type="content" source="media/share-device-mode/shared-device-mode-setup-successful.png " alt-text="Screenshot of a successful shared device mode setup in the Authenticator app":::
-
-## Zero-touch setup via Intune 
-
-Microsoft Intune supports zero-touch provisioning for devices in Microsoft Entra shared device mode, which means that the device can be set up and enrolled in Intune with minimal interaction from the frontline worker.  
-
-To set up a device in shared device mode when using Microsoft Intune as the MDM, first step is to enroll the shared device into Intune and install Authenticator app with Shared Device Mode enabled. For more information, see how to [Set up enrollment for devices in Microsoft Entra shared device mode](/mem/intune/enrollment/automated-device-enrollment-shared-device-mode).  
-
-Once enrolled, launch the Authenticator app which will initiate and complete the registration process. Alternatively, you can open any of the shared device mode enabled applications which will launch the Authenticator app and complete registration.  
 
 ## Test shared device mode setup 
 
