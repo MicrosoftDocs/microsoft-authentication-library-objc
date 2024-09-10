@@ -7,53 +7,30 @@ manager: CelesteDG
 
 ms.service: msal
 ms.subservice: msal-ios-mac
-ms.topic: conceptual
-ms.date: 02/19/2024
+ms.topic: tutorial
+ms.date: 06/14/2024
 ms.author: henrymbugua
-ms.reviewer: oldalton, brianmel
+ms.reviewer: oldalton, negoe, akgoel23
 ms.custom: aaddev
 ---
 
-# Shared device mode for iOS devices
+# Modify your iOS or iPadOS application to support shared device mode
 
-Frontline workers such as retail associates, flight crew members, and field service workers often use a shared mobile device to perform their work. These shared devices can present security risks if your users share their passwords or PINs, intentionally or not, to access customer and business data on the shared device.
+In this tutorial, you learn how to modify an iOS or iPadOS application to support Shared Device Mode (SDM). SDM is a Microsoft Entra ID feature enabling organizations to configure an iOS, iPadOS, or Android device for easy sharing among multiple employees, a common practice in frontline worker settings.
 
-[Shared device mode](/entra/identity-platform/msal-shared-devices) allows you to configure an iOS 14 or higher device to be more easily and securely shared by employees. Employees can sign-in once and get single sign-on (SSO) to all apps that support this feature, giving them faster access to information. When they're finished with their shift or task, they can sign out of the device through any supported app that also signs them out from all apps supporting this feature, and the device is immediately ready for use by the next employee with no access to previous user's data.
+In this tutorial, you:
 
-To take advantage of shared device mode feature, app developers and cloud device admins work together:
+> [!div class="checklist"]
+> * Add support for single account mode.
+> * Configure your app to use SDM.
+> * Detect shared device mode.
+> * Identify if the signed-in user has changed.
 
-1. **Device administrators** prepare the device to be shared by using a mobile device management (MDM) provider like Microsoft Intune. The MDM pushes the [Microsoft Authenticator app](https://support.microsoft.com/account-billing/how-to-use-the-microsoft-authenticator-app-9783c865-0308-42fb-a519-8cf666fe0acc) to the devices and turns on "Shared Mode" for each device through a profile update to the device. This Shared Mode setting is what changes the behavior of the supported apps on the device. This configuration from the MDM provider sets the shared device mode for the device and enables the [Microsoft Enterprise SSO plug-in for Apple devices](/entra/identity-platform/apple-sso-plugin) that is required for shared device mode. To learn more about SSO extensions, see the [Apple video](https://developer.apple.com/videos/play/tech-talks/301/).
+## Prerequisites
 
-2. **Application developers** write a single-account app (multiple-account apps aren't supported in shared device mode) to handle the following scenario:
+- [Tutorial: Sign in users and call Microsoft Graph from an iOS or macOS app](/entra/identity-platform/tutorial-v2-ios)
 
-   - Sign in a user device-wide through any supported application.
-   - Sign out a user device-wide through any supported application.
-   - Query the state of the device to determine if your application is on a device that's in shared device mode.
-   - Query the device state of the user on the device to determine if anything has changed since the last time your application was used.
-
-   Supporting shared device mode should be considered a feature upgrade for your application, and can help increase its adoption in environments where the same device is used among multiple users.
-
-   > [!IMPORTANT]
-   > [Microsoft applications](#microsoft-applications-that-support-shared-device-mode) that support shared device mode on iOS don't require any changes and just need to be installed on the device to get the benefits that come with shared device mode.
-
-## Set up device in Shared Device Mode
-
-Your device needs to be configured to support shared device mode. It must have iOS 14+ installed and be MDM-enrolled. MDM configuration also needs to enable [Microsoft Enterprise SSO plug-in for Apple devices](/entra/identity-platform/apple-sso-plugin).
-
-Microsoft Intune supports zero-touch provisioning for devices in Microsoft Entra shared device mode, which means that the device can be set up and enrolled in Intune with minimal interaction from the frontline worker. To set up device in shared device mode when using Microsoft Intune as the MDM, see [Set up enrollment for devices in Microsoft Entra shared device mode](/mem/intune/enrollment/automated-device-enrollment-shared-device-mode/).
-
-> [!IMPORTANT]
-> We are working with third-party MDMs to support shared device mode. We will update the list of third-party MDMs as they start supporting the shared device mode.
-
-## Modify your iOS application to support shared device mode
-
-Your users depend on you to ensure their data isn't leaked to another user. The following sections provide helpful signals to indicate to your application that a change has occurred and should be handled.
-
-You're responsible for checking the state of the user on the device every time your app is used, and then clearing the previous user's data. This includes if it's reloaded from the background in multi-tasking.
-
-On a user change, you should ensure both the previous user's data is cleared and that any cached data being displayed in your application is removed. We highly recommend you and your company conduct a security review process after updating your app to support shared device mode.
-
-### Detect shared device mode
+## Detect shared device mode
 
 Detecting shared device mode is important for your application. Many applications require a change in their user experience (UX) when the application is used on a shared device. For example, your application might have a "Sign-Up" feature, which isn't appropriate for a frontline worker because they likely already have an account. You may also want to add extra security to your application's handling of data if it's in shared device mode.
 
@@ -61,7 +38,7 @@ Use the `getDeviceInformationWithParameters:completionBlock:` API in the `MSALPu
 
 The following code snippets show examples of using the `getDeviceInformationWithParameters:completionBlock:` API.
 
-#### Swift
+### Swift
 
 ```swift
 application.getDeviceInformation(with: nil, completionBlock: { (deviceInformation, error) in
@@ -75,7 +52,7 @@ application.getDeviceInformation(with: nil, completionBlock: { (deviceInformatio
 })
 ```
 
-#### Objective-C
+### Objective-C
 
 ```objective-c
 [application getDeviceInformationWithParameters:nil
@@ -91,7 +68,7 @@ application.getDeviceInformation(with: nil, completionBlock: { (deviceInformatio
 }];
 ```
 
-### Get the signed-in user and determine if a user has changed on the device
+## Get the signed-in user and determine if a user has changed on the device
 
 Another important part of supporting shared device mode is determining the state of the user on the device and clearing application data if a user has changed or if there's no user at all on the device. You're responsible for ensuring data isn't leaked to another user.
 
@@ -250,6 +227,7 @@ These Microsoft applications support Microsoft Entra shared device mode:
 - [Microsoft 365](https://apps.apple.com/us/app-bundle/microsoft-365/id1450038993?mt=12) (in Public Preview)
 - [Microsoft Power BI Mobile](/power-bi/consumer/mobile/mobile-app-shared-device-mode)
 - [Microsoft Edge](/microsoft-edge/)
+
 
 > [!IMPORTANT]
 > Public preview is provided without a service-level agreement and isn't recommended for production workloads. Some features might be unsupported or have constrained capabilities. For more information, see [Universal License Terms for Online Services](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all).
