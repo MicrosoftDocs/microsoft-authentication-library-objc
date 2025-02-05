@@ -228,9 +228,14 @@ These Microsoft applications support Microsoft Entra shared device mode:
 - [Microsoft Power BI Mobile](/power-bi/consumer/mobile/mobile-app-shared-device-mode)
 - [Microsoft Edge](/microsoft-edge/)
 
-
 > [!IMPORTANT]
 > Public preview is provided without a service-level agreement and isn't recommended for production workloads. Some features might be unsupported or have constrained capabilities. For more information, see [Universal License Terms for Online Services](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all).
+
+## Third-party MDMs that support shared device mode
+
+These third-party Mobile Device Management (MDM) providers support Microsoft Entra shared device mode:
+
+- [Jamf](https://learn.jamf.com/en-US/bundle/jamf-pro-release-notes-current/page/New_Features_and_Enhancements.html#ariaid-title5)
 
 ## Next steps
 
