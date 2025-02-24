@@ -181,11 +181,7 @@ In ADAL, you create separate instances of `ADAuthenticationContext` for each ten
 
 ## SSO in partnership with other SDKs
 
-MSAL for iOS can achieve SSO via a unified cache with the following SDKs:
-
-- ADAL Objective-C 2.7.x+
-- MSAL.NET for Xamarin 2.4.x+
-- ADAL.NET for Xamarin 4.4.x+
+MSAL for iOS can achieve SSO via a unified cache with ADAL Objective-C 2.7.x+.
 
 SSO is achieved via iOS keychain sharing and is only available between apps published from the same Apple Developer account.
 
