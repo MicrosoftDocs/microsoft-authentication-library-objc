@@ -196,7 +196,7 @@ MSAL on iOS also supports two other types of SSO:
 
 ## Intune MAM SDK
 
-The [Intune MAM SDK](/intune/app-sdk-get-started) supports MSAL for iOS starting with version [11.1.2](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/releases/tag/11.1.2)
+The [Intune MAM SDK](/mem/intune-service/developer/app-sdk-android-phase3) supports MSAL for iOS starting with version [11.1.2](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/releases/tag/11.1.2)
 
 ## MSAL and ADAL in the same app
 
