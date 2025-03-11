@@ -8,9 +8,9 @@ ms.service: msal
 ms.subservice: msal-ios-mac
 ms.topic: conceptual
 ms.workload: identity
-ms.date: 09/22/2023
+ms.date: 03/11/2024
 ms.author: dmwendia
-ms.reviewer: oldalton, brianmel
+ms.reviewer: oldalton
 ms.custom: aaddev
 ---
 
@@ -100,7 +100,7 @@ github "AzureAD/microsoft-authentication-library-for-objc" == <latest_released_v
   ```
   $(SRCROOT)/Carthage/Build/iOS/MSAL.framework
   ```
-  This script works around an [App Store submission bug](http://www.openradar.me/radar?id=6409498411401216) triggered by universal binaries and ensures that necessary bitcode-related files and dSYMs are copied when archiving.
+  This script works around an [App Store submission bug](http://www.openradar.me/) triggered by universal binaries and ensures that necessary bitcode-related files and dSYMs are copied when archiving.
 
 With the debug information copied into the built products directory, Xcode will be able to symbolicate the stack trace whenever you stop at a breakpoint. This will also enable you to step through third-party code in the debugger.
 
