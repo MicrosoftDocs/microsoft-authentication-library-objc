@@ -68,7 +68,7 @@ The format of redirect URIs must be compatible with the format MSAL supports, wh
 
 ### Setup keychain sharing between applications
 
-Refer to Apple's [Adding Capabilities](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html) article to enable keychain sharing. What is important is that you decide what you want your keychain to be called and add that capability to all of your applications that will be involved in SSO.
+Refer to Apple's [Adding Capabilities](https://developer.apple.com/documentation/xcode/configuring-keychain-sharing) article to enable keychain sharing. What is important is that you decide what you want your keychain to be called and add that capability to all of your applications that will be involved in SSO.
 
 When you have the entitlements set up correctly, you'll see a `entitlements.plist` file in your project directory that contains something like this example:
 
