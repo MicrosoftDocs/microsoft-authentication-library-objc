@@ -8,7 +8,7 @@ manager: CelesteDG
 ms.service: msal
 ms.subservice: msal-ios-mac
 ms.topic: tutorial
-ms.date: 06/14/2024
+ms.date: 04/29/2025
 ms.author: henrymbugua
 ms.reviewer: oldalton, negoe, akgoel23
 ms.custom: aaddev
@@ -222,7 +222,7 @@ These Microsoft applications support Microsoft Entra shared device mode:
 
 - [Microsoft Teams](/microsoftteams/platform/)
 - [Microsoft Viva Engage](/viva/engage/overview) (previously [Yammer](/viva/engage/overview))
-- [Outlook](/mem/intune/apps/app-configuration-policies-outlook) (in Private Preview)
+- [Outlook](/mem/intune/apps/app-configuration-policies-outlook)
 - [Microsoft Power Apps](/power-apps/)
 - [Microsoft 365](/microsoft-365-apps/mac/configure-shared-device-mode)
 - [Microsoft Power BI Mobile](/power-bi/consumer/mobile/mobile-app-shared-device-mode)
