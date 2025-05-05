@@ -236,6 +236,7 @@ These Microsoft applications support Microsoft Entra shared device mode:
 These third-party Mobile Device Management (MDM) providers support Microsoft Entra shared device mode:
 
 - [Jamf](https://learn.jamf.com/en-US/bundle/jamf-pro-release-notes-current/page/New_Features_and_Enhancements.html#ariaid-title5)
+- [SOTI](https://www.soti.net/mc/help/v2025.1/en/console/configurations/profiles/configurations/categories/security/microsoft_authenticator_sso_for_ios_devices.html)
 
 ## Next steps
 
