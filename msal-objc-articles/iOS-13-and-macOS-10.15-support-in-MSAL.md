@@ -1,17 +1,17 @@
 ---
 title: Support for iOS 13 in MSAL
 description: Learn ABOUT support for iOS 13 in MSAL
-services: active-directory
 author: Dickson-Mwendia
 manager: CelesteDG
-
+ms.author: dmwendia
+ms.date: 02/19/2024
 ms.service: msal
 ms.subservice: msal-ios-mac
+ms.reviewer: oldalton
 ms.topic: conceptual
-ms.date: 02/19/2024
-ms.author: dmwendia
-ms.reviewer: oldalton, brianmel
 ms.custom: aaddev
+#Customer intent: 
+
 ---
 
 # Support for iOS 13 in MSAL

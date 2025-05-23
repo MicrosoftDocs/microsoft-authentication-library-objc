@@ -1,13 +1,15 @@
 ---
-author: davidmu1
-ms.author: davidmu
-ms.date: 10/22/2020
-ms.service: identity-platform
+author: henrymbuguakiarie
+ms.author: henrymbugua
+ms.date: 05/23/2025
+ms.service: msal
+ms.subservice: msal-ios-mac
 ms.topic: include
+#Customer intent: 
 # Purpose:
+# Usage:
 # Ingested by Microsoft identity platform articles in /articles/active-directory/develop/* that document public preview features.
 #
-# Usage:
 # Paste the below (without the hashtags) into your article, and then replace *only* "FEATURE_OR_LIBRARY".
 #
 # > [!IMPORTANT]

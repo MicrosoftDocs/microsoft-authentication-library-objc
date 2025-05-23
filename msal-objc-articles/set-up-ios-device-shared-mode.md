@@ -3,13 +3,14 @@ title: Set up an iOS or iPadOS device in Shared Device Mode
 description: Learn how to set up an iOS or iPadOS device in Shared Device Mode 
 author: Dickson-Mwendia
 manager: CelesteDG
-
+ms.author: dmwendia
+ms.date: 08/19/2024
 ms.service: msal
 ms.subservice: msal-ios-mac
-ms.topic: conceptual
-ms.date: 08/19/2024
-ms.author: dmwendia
 ms.reviewer: henrymbugua, akgoel
+ms.topic: conceptual
+#Customer intent: 
+
 ---
 
 # Setup an iOS or iPadOS device in Shared Device Mode 
