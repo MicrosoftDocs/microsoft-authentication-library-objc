@@ -1,17 +1,17 @@
 ---
 title: Troubleshoot TLS/SSL issues (MSAL iOS/macOS)
 description: Learn what to do about various problems using TLS/SSL certificates with the MSAL.Objective-C library.
-services: active-directory
 author: OwenRichards1
 manager: CelesteDG
-
+ms.author: owenrichards
+ms.date: 02/19/2024
 ms.service: msal
 ms.subservice: msal-ios-mac
+ms.reviewer: oldalton
 ms.topic: conceptual
-ms.date: 02/19/2024
-ms.author: owenrichards
-ms.reviewer: oldalton, brianmel
 ms.custom: aaddev
+#Customer intent: 
+
 ---
 
 # Troubleshoot MSAL for iOS and macOS TLS/SSL issues

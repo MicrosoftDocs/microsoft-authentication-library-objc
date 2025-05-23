@@ -1,17 +1,17 @@
 ---
 title: Microsoft Authentication Library for iOS and macOS
 description: Learn about the Microsoft Authentication Library for iOS and macOS
-services: active-directory
 author: Dickson-Mwendia
 manager: CelesteDG
-
+ms.author: dmwendia
+ms.date: 03/26/2024
 ms.service: msal
 ms.subservice: msal-ios-mac
+ms.reviewer: oldalton
 ms.topic: conceptual
-ms.date: 03/26/2024
-ms.author: dmwendia
-ms.reviewer: oldalton, brianmel
 ms.custom: aaddev
+#Customer intent: 
+
 ---
 
 # Microsoft Authentication Library for iOS and macOS

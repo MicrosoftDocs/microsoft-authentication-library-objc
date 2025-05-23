@@ -1,9 +1,11 @@
 ---
-author: cilwerner
-ms.author: cwerner
-ms.date: 12/16/2020
-ms.service: identity-platform
+author: henrymbuguakiarie
+ms.author: henrymbugua
+ms.date: 05/23/2025
+ms.service: msal
+ms.subservice: msal-ios-mac
 ms.topic: include
+#Customer intent: 
 # Purpose:
 # Ingested by Microsoft identity platform articles in /articles/active-directory/develop/* that document error logging for the different platforms.
 ---
