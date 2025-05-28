@@ -9,9 +9,8 @@ ms.service: msal
 ms.subservice: msal-ios-mac
 ms.reviewer: oldalton
 ms.topic: conceptual
-ms.custom: aaddev
+ms.custom: aaddev, sfi-image-nochange
 #Customer intent: 
-
 ---
 
 # Configure SSO on macOS and iOS
