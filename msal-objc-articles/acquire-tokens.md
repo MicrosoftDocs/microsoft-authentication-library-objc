@@ -1,16 +1,16 @@
 ---
 title: Acquire tokens in MSAL for iOS/macOS
 description: Learn how to acquire tokens using MSAL to authenticate users in iOS/macOS applications.
-services: active-directory
 author: Dickson-Mwendia
 manager: CelesteDG
-
+ms.author: dmwendia
+ms.date: 02/19/2024
 ms.service: msal
 ms.subservice: msal-ios-mac
+ms.reviewer: oldalton
 ms.topic: conceptual
-ms.date: 02/19/2024
-ms.author: dmwendia
-ms.reviewer: oldalton, brianmel
+#Customer intent: 
+
 ---
 
 # Using MSAL to acquire tokens

@@ -1,9 +1,11 @@
 ---
-author: cilwerner
-ms.author: cwerner
-ms.date: 11/25/2020
-ms.service: identity-platform
+author: henrymbuguakiarie
+ms.author: henrymbugua
+ms.date: 05/23/2025
+ms.service: msal-ios-mac
+ms.subservice: msal-ios-mac
 ms.topic: include
+#Customer intent: 
 # Purpose:
 # Ingested by Microsoft identity platform articles in /articles/active-directory/develop/* that document the error handling intro for the different platforms.
 ---

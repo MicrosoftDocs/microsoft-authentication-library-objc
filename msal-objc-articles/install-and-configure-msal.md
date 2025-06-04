@@ -3,15 +3,15 @@ title: Install and configure MSAL for iOS/macOS
 description: Learn how to install MSAL and configure your project to use the library
 author: Dickson-Mwendia
 manager: CelesteDG
-
+ms.author: dmwendia
+ms.date: 03/11/2024
 ms.service: msal
 ms.subservice: msal-ios-mac
-ms.topic: conceptual
-ms.workload: identity
-ms.date: 03/11/2024
-ms.author: dmwendia
 ms.reviewer: oldalton
+ms.topic: conceptual
 ms.custom: aaddev
+#Customer intent: 
+
 ---
 
 # Install MSAL and configure your project to use the library
