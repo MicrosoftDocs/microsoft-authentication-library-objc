@@ -26,7 +26,7 @@ MSAL iOS provides native authentication APIs that allow applications to implemen
 
 ## Getting started with MSAL for iOS and macOS conceptual documentation
 
-The MSAL documentation covers common patterns, error handling and debugging best practices, extra library functionality (such as logging, telemetry), and any active bugs or common issues with known mitigations. If you're looking for more help getting started with Microsoft Entra ID, Microsoft Accounts, or Azure AD B2C, check out the [Microsoft identity platform docs](https://aka.ms/aaddev). If you're looking for more info about the Microsoft Graph API, check out the [Microsoft Graph docs](https://graph.microsoft.io). To effectively use MSAL iOS and macOS to protect your applications, it's important to familiarize yourself with the following concepts:
+The MSAL documentation covers common patterns, error handling and debugging best practices, extra library functionality (such as logging, telemetry), and any active bugs or common issues with known mitigations. If you're looking for more help getting started with Microsoft Entra ID, Microsoft Accounts, check out the [Microsoft identity platform docs](https://aka.ms/aaddev). If you're looking for more info about the Microsoft Graph API, check out the [Microsoft Graph docs](https://graph.microsoft.io). To effectively use MSAL iOS and macOS to protect your applications, it's important to familiarize yourself with the following concepts:
 
 
 1. Learn the differences between MSAL for iOS and macOS
