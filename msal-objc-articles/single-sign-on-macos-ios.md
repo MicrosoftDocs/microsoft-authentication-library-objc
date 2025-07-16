@@ -8,7 +8,7 @@ ms.date: 02/19/2024
 ms.service: msal
 ms.subservice: msal-ios-mac
 ms.reviewer: oldalton
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: aaddev, sfi-image-nochange
 #Customer intent: 
 ---
