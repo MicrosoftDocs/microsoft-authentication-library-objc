@@ -8,7 +8,7 @@ ms.date: 03/11/2024
 ms.service: msal
 ms.subservice: msal-ios-mac
 ms.reviewer: oldalton
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.custom: aaddev
 #Customer intent: 
 

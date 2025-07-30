@@ -8,7 +8,7 @@ ms.date: 08/19/2024
 ms.service: msal
 ms.subservice: msal-ios-mac
 ms.reviewer: henrymbugua, akgoel
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.custom: sfi-image-nochange
 #Customer intent: 
 ---
