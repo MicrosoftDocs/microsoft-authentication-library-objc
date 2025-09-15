@@ -226,9 +226,9 @@ These Microsoft applications support Microsoft Entra shared device mode:
 - [Microsoft Power Apps](/power-apps/)
 - [Microsoft Power BI Mobile](/power-bi/consumer/mobile/mobile-app-shared-device-mode)
 - [Microsoft Edge](/microsoft-edge/)
-- Microsoft Word
-- Microsoft Excel
-- Microsoft PowerPoint
+- [Microsoft Word](/microsoft-365-apps/mac/configure-shared-device-mode)
+- [Microsoft Excel](/microsoft-365-apps/mac/configure-shared-device-mode)
+- [Microsoft PowerPoint](/microsoft-365-apps/mac/configure-shared-device-mode)
 
 > [!IMPORTANT]
 > Public preview is provided without a service-level agreement and isn't recommended for production workloads. Some features might be unsupported or have constrained capabilities. For more information, see [Universal License Terms for Online Services](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all).
