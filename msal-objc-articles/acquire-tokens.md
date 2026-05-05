@@ -17,7 +17,7 @@ ms.topic: how-to
 
 ## Creating an Application Object
 
-Use the client ID from your app listing when initializing your MSALPublicClientApplication object:
+Use the client ID from your app listing when initializing your MSALPublicClientApplication object: test PR
 
 ### Swift
 
