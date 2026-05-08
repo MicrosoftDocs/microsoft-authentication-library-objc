@@ -19,7 +19,7 @@ ms.custom: sfi-image-nochange
 
 ## Prerequisites
 
-- An Azure account with an active subscription. If you don't have one, [create an account for free](https://azure.microsoft.com/free/).
+- An Azure account with an active subscription. If you don't have one, [create an account for free](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 - An iOS device with iOS 14+ or later that isn't registered with Microsoft Entra ID. If it's registered, reset it to factory settings.
 - The latest version of [Microsoft Authenticator app](https://play.google.com/store/apps/details/Microsoft_Authenticator?id=com.azure.authenticator&hl=en_NZ) installed on the device.
 - For manual setup, the device should be managed by a Mobile Device Management (MDM) tool such as Microsoft Intune.  
