@@ -66,7 +66,7 @@ To configure the Authenticator app settings and register the device with Entra I
 
     :::image type="content" source="media/share-device-mode/microsoft-authenticator-set-up-shared-device-mode.png " alt-text="Screenshot showing the device registration screen in app":::
 
-1. If The Authenticator app prompts you to provide your credentials, as shown (please close the app and validate the SSO profile has been installed, DO NOT enter any email addess):
+1. If the Authenticator app prompts you to provide your credentials, as shown, close the app and validate that the SSO profile has been installed. Do not enter an email address.
 
     :::image type="content" source="media/share-device-mode/cloud-administrator-provide-credentials.png " alt-text="Screenshot of the sign-in page in Authenticator app":::
 
