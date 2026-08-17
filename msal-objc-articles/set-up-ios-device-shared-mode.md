@@ -62,15 +62,15 @@ iOS settings:
 To configure the Authenticator app settings and register the device with Entra ID, the Cloud Device Administrator in a tenant should follow these steps:
 
 1. Launch the Authenticator App.
-1. On the Shared Device Mode manual setup UI, enter the organizational email and select “Register as Shared Device**, as shown:
+1. The App should automatically start registering the device (as long as the SSO profile is already on the device) without any user interaction needed. If it doesn't, try closing the app and validating that the SSO payload is on the device. Then open the Authenticator app again:
 
     :::image type="content" source="media/share-device-mode/microsoft-authenticator-set-up-shared-device-mode.png " alt-text="Screenshot showing the device registration screen in app":::
 
-1. The Authenticator app prompts you to provide your credentials, as shown:
+1. If the Authenticator app prompts you to provide your credentials, as shown, close the app and validate that the SSO profile has been installed. Do not enter an email address.
 
     :::image type="content" source="media/share-device-mode/cloud-administrator-provide-credentials.png " alt-text="Screenshot of the sign-in page in Authenticator app":::
 
-1. Upon providing credentials, the device is successfully set in shared device mode.
+1. If the registration succeeded, the device is successfully set in shared device mode.
 
    :::image type="content" source="media/share-device-mode/shared-device-mode-setup-successful.png " alt-text="Screenshot of a successful shared device mode setup in the Authenticator app":::
 
